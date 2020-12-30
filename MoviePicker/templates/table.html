@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+    <title>Movies Recommendation</title>
+    <body>
+    <div class="Box">
+    </div>
+            <div class="Film">
+            <img src="{{ Screenshot }}" alt="Film-Poster">
+            <div class = Title>{{ Title | safe }}</div>
+            <br>
+            <br>
+            <div class = Score>Critics score: {{ Critics | safe }}%
+            <br>
+            <br>
+            <div class = Audience></div>Audience score: {{ Audience | safe }}%</div>
+            <br>
+            <br>
+            <div class= Linker>
+            <a href="{{ Urllink }}"><button>More info</button></a>
+            <a href=""><button>Next</button></a>
+            </div>
+            </div>
+            
+        </div>
+        </div>
+    
+
+    </body>
+
+</html>

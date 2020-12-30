@@ -1,0 +1,81 @@
+body {
+    background-image: url(/static/Back3.jpg);
+    background-size: cover;
+    background-image: center;
+    background-image: grayscale(35%);
+}
+
+h2 { 
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: white;
+  }
+
+
+.Box {
+    position: absolute; 
+    border: 15px;
+    border-color: white;
+    top: 45%;
+    left: 50%;
+    right: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 750px;
+    height: 250px;
+}
+
+.Film {
+    font-size: 20px;
+    position: relative;
+    width: 700px;
+    height: 400px;
+    text-align: left;
+    color: white;  
+    font-family: Arial, Helvetica, sans-serif;
+    top: 30%;
+    left: 30%;
+    right: 50%;
+    margin-top: 125px;
+    text-shadow: 2px 2px black;
+
+}
+/* resize images */
+.Film img{
+    width: 40%;
+    height: auto;
+    float: left;
+    box-shadow: 5px 15px 40px black;
+    border-radius: 15px;
+}
+.Film text{
+    float: right; 
+    color:purple;
+}
+.Title {
+    font-size: 20px;
+    padding-top: 15%;
+    padding-left: 50%;
+}
+.Score {
+    font-size: 16px;
+    padding-left: 10%;
+    padding-left: 50%;
+}
+.Audience {
+    font-size: 16px;
+    padding-left: 10%;
+    padding-left: 50%;
+}
+.Linker{
+    font-size: 16px;
+    padding-left: 10%;
+    padding-left: 50%;
+}
+
+
