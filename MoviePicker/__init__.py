@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def show_tables():
-    df = pd.read_excel('/static/TopFilmsList.xlsx')
+    df = pd.read_excel('MoviePicker\static\TopFilmsList.xlsx')
     #datatable = df.to_html()
     RandomSelection = df.sample(n=1)
     Title = RandomSelection['Title'].values[0]
